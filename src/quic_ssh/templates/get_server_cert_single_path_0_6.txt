@@ -1,0 +1,19 @@
+package main
+
+import (
+	"github.com/lucas-clemente/quic-go"
+	"crypto/x509"
+	"quic_utils"
+	"crypto/tls"
+)
+
+func (config *SSHConfig) getServerCert(session quic.Session) *x509.Certificate {
+	config.printDebug("This is single path mode with quic-go 0.6")
+	cert, err := x509.ParseCertificate(session.AddedForThesis_getLeafCert())
+	quic_utils.Check(err)
+	return cert
+}
+
+func (config *SSHConfig) openSession() (quic.Session, error){
+	return quic.DialAddr(config.formatAddress(), &tls.Config{InsecureSkipVerify: true}, &quic.Config{KeepAlive: true}, )
+}

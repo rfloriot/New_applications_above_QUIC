@@ -1,0 +1,12 @@
+remote 7.7.7.7 1194
+proto udp
+nobind
+persist-tun
+persist-key
+comp-lzo no
+dev tun
+dev-type tun
+ifconfig 192.168.3.1 192.168.3.2
+keepalive 10 60
+resolv-retry infinite
+verb 3

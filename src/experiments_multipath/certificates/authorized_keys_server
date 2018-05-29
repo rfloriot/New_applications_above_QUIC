@@ -1,0 +1,8 @@
+-- This file lists all public keys of clients that are allowed to connect to the server.
+-- Max one key per line. A key cannot be cut on several lines. Extra blank lines are allowed.
+-- Comments are possible by inserting "--" at the beginning of any line.
+
+-- key1: remi floriot
+MIGJAoGBAMlBdZvARrLyVK5B8yyojAKB0f70RSauEqxVvZ9mGbI+J/dWFQZmjILrWtvw8mcfsLYLIq6XD1WUjJP+CfulY/C2WOZxCUeL0rTophtcNx3lgPX4G4rRza8zhMKPjDBCjoWbxCEfoPwQG4eeJh2w18cSspx1NmSIpv/dsSo5ViVhAgMBAAE=
+
+

@@ -1,0 +1,5 @@
+-a ENDPOINT -rp 10001 VoIP -x G.711.2 -h RTP -VAD
+-a ENDPOINT -rp 10002 Telnet
+-a ENDPOINT -rp 10003 CSa
+-a ENDPOINT -rp 10003 Quake3
+

@@ -1,0 +1,13 @@
+mode: client
+ip: 192.168.1.1/24
+verbose: true
+iface_name: "tunquic"
+
+client:
+  public: "certificates/client.pub"
+  private: "certificates/client"
+server:
+  check_key: true
+  public: "certificates/server.pub"
+  addr: 7.7.7.7
+  port: 5051

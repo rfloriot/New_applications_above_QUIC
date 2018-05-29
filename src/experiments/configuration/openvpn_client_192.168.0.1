@@ -1,0 +1,13 @@
+remote 7.7.7.7 1194
+proto tcp-client
+nobind
+persist-tun
+persist-key
+comp-lzo no
+dev tun
+dev-type tun
+ifconfig 192.168.0.1 192.168.0.2
+keepalive 10 60
+resolv-retry infinite
+verb 3
+tcp-nodelay

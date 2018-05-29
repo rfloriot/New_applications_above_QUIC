@@ -1,0 +1,13 @@
+mode: server
+ip: 192.168.2.2/24
+multi_streams: true
+verbose: true
+iface_name: "tunquicm"
+
+client:
+  check_key: true
+  public: "certificates/client.pub"
+server:
+  public: "certificates/server.pub"
+  private: "certificates/server"
+  port: 5052

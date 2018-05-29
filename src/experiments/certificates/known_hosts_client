@@ -1,0 +1,10 @@
+-- This file lists all public keys of servers that are trusted by the client.
+-- A line contains the server IP address and the server public key (separated by a space).
+-- A key cannot be cut on several lines. Extra blank lines are allowed.
+-- Comments are possible by inserting "--" at the beginning of any line.
+
+127.0.0.1:5050 MIGJAoGBAKjbx1uVtvN+i/W+HivtuHPDlsvlY4GUO3IUCqVvmGaunlXeYNJSdki4+BSbmX7oiwRkIIhBYSHTWfeiSzbBKZGarHy4lXXQSJdzVSD5qS3AfZvPtWHZhQRGW8LtEtmohk90qGkQWkfgHmD3Zrz9I+JqECq53g9DBmHRcvbzeDuVAgMBAAE=
+51.254.133.74:5050 MIGJAoGBAKjbx1uVtvN+i/W+HivtuHPDlsvlY4GUO3IUCqVvmGaunlXeYNJSdki4+BSbmX7oiwRkIIhBYSHTWfeiSzbBKZGarHy4lXXQSJdzVSD5qS3AfZvPtWHZhQRGW8LtEtmohk90qGkQWkfgHmD3Zrz9I+JqECq53g9DBmHRcvbzeDuVAgMBAAE=
+7.7.7.7:12345 MIGJAoGBAKjbx1uVtvN+i/W+HivtuHPDlsvlY4GUO3IUCqVvmGaunlXeYNJSdki4+BSbmX7oiwRkIIhBYSHTWfeiSzbBKZGarHy4lXXQSJdzVSD5qS3AfZvPtWHZhQRGW8LtEtmohk90qGkQWkfgHmD3Zrz9I+JqECq53g9DBmHRcvbzeDuVAgMBAAE=
+7.7.7.7:52345 MIGJAoGBAKjbx1uVtvN+i/W+HivtuHPDlsvlY4GUO3IUCqVvmGaunlXeYNJSdki4+BSbmX7oiwRkIIhBYSHTWfeiSzbBKZGarHy4lXXQSJdzVSD5qS3AfZvPtWHZhQRGW8LtEtmohk90qGkQWkfgHmD3Zrz9I+JqECq53g9DBmHRcvbzeDuVAgMBAAE=
+7.7.7.7:54321 MIGJAoGBAKjbx1uVtvN+i/W+HivtuHPDlsvlY4GUO3IUCqVvmGaunlXeYNJSdki4+BSbmX7oiwRkIIhBYSHTWfeiSzbBKZGarHy4lXXQSJdzVSD5qS3AfZvPtWHZhQRGW8LtEtmohk90qGkQWkfgHmD3Zrz9I+JqECq53g9DBmHRcvbzeDuVAgMBAAE=
